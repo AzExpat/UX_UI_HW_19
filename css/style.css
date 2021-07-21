@@ -1,0 +1,272 @@
+.inline-block {
+    vertical-align: top;
+}
+/*logo*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 0, 40px;
+}
+/*nav bar*/
+nav {
+    width: 100%;
+    padding: 1%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #FDF5E1;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #373738;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #F7B6AB;
+    text-decoration: none;
+}
+li a.active {
+    color: white;
+    background-color: #ef624b;
+}
+/*about page*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.heroimg {
+    padding: 25px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 5px 5px 0 0;
+}
+div.container {
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+  }
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+button {
+        background-color: #ef624b;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}  
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  /*skills page*/
+  .mySkills {
+      text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #89c7ad;
+       margin-bottom: 30px;
+    padding: 20px;
+  }
+   .flex-container > div {
+    background-color: #FDF5E1;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
+  img.one {
+    max-width: 64px;
+    height: auto;
+  }
+
+/*my work page* aka index*/
+* {
+  box-sizing: border-box;
+} 
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    background-color: #5AA07E;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color:cadetblue;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .item1, .item2, .item3, .item4 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 0, 25px; 
+  }
+ 
+  body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .container {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  .med-font {
+    font-size: 24px;
+  }
+  
+  .large-font {
+    font-size: 36px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1c6240;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+  }
+  .viewmore {
+    margin: 5%;
+    text-align: center;
+
+  }
+  .projectlink {
+    color: #1c6240;
+    text-decoration: none;
+  }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ef624b;
+    color: white;
+    font-size: large;
+  }
+  .footer {
+  display: flex;
+  justify-content: space-around;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  margin: auto;
+  background-color: #ef624b;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.bottomnav {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.active {
+  color: #373738;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: small;
+  text-align: center;
+  color: #373738;
+}
+.flex-container > div {
+  background-color:#FDF5E1;
+  width: 95%;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: auto;
+    text-align: center;
+  }
+}
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      width: 100%;
+      background-color: #5AA07E;
+    }
+  }
