@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="js/index.js"></script>
+
         <title>Portfolio de Peggy</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
    <body>
@@ -16,15 +21,30 @@
            <nav class="inline-block">
            </nav>
                 <ul>
-                    <li><a class="index.html">Work</a></li>
-                    <li><a class="skills.html">Skills</a></li>
-                    <li><a class="about.html">About</a></li>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="about.html">About</a></li>
                   <li><a class="active" href=contact.html>Contact</a></li>
                 </ul>
         </nav>
        </header>
+
+       <h3 class=pageTitle>Get in Touch!</h3>
+
+<div class="container">
+  <div class="getinTouch">
+  <form action="/action_page.php">
+  Name: <input type="text" name="fullname"><br>
+  Company: <input type="text" name="company">
+  Phone: <input type="text" name="phone">
+  Email: <input type="text" name="email">
+  Message: <textarea id="subject" name="subject" style="height:150px"></textarea>
+  <input type="submit" value="Submit" class="submit">
+  </form>
+  </div>
+</div>
     </body>
- 
+
         <footer>
             <div class="footer">
               <a class="bottomnav" a href="index.html">Work</a>
