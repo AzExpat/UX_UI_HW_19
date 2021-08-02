@@ -218,7 +218,7 @@ button:hover {
   input[type=submit]:hover {
     background-color: #1c6240;
   }
-  .container {
+  .contactcontainer {
     border-radius: 5px;
     background-color: #FDF5E1;
     padding: 20px;
@@ -233,7 +233,6 @@ button:hover {
   color: black;
 }
 .advsheading {
-  position: absolute;
   top: 20px;
   left: 18px;
 }
@@ -242,33 +241,22 @@ button:hover {
   padding-left: 20px;
   text-align: center;
 }
-.w3-row {
+.overview {
   background-color: #DFE5F6;
 }
-
 .leftcopy{
   text-align: left;
   margin-right: 45px;
+  margin-left: 10px;
 }
 .rightcopy {
   color: black;
 }
 
 /*testing*/
-.slideinleft {
-      margin-left:-300px;
-      max-width:100%;
-      height: 20px;
-      background-color: blue;
-  }
-  
- 
-  #toggle {
-    width: 100px;
-    height: 100px;
-    background: #ccc;
-  }
-
+.proto {
+  text-align: left;
+}
 
 /*FOOTER*/
 footer {

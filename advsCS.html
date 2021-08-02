@@ -3,8 +3,10 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="js/index.js"></script>
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -29,21 +31,23 @@
                 </ul>
         </nav>
        </header>
-
+<div class="container">
 <section class="background">
-       <div id="advsHero">
-           <img src="images/advs header.png" style="width:80%;" alt="ADVS Logo">
-       </div>
-       <div class="advsheading">
+    <div class="w3 col-md">
+        
+       <div class="w3 col-md advsheading">
         <h1>Arizona Department of Veterans' Services</h1>
         <h1>Responsive Website Redesign</h1>
         <h3>Outdated agency website gets a much needed UX/UI makeover</h3>
     </div>
+
+       <div id="advsHero">
+           <img src="images/advs/advs header.png" style="width:80%;" alt="ADVS Logo">
+       </div>
+    </div>
 </section>
 
-
-
-<div class="w3-row">
+<div class="w3-row overview">
     <div class='w3-col m12 l12'>
          <h3 class="pageTitle">Project Overview</h3>
     </div>
@@ -69,20 +73,25 @@
             <p>4 Weeks</p>
         </div>
     </div>
-  </div>
-  <div class="w3-row">
-      <div class="w3-col" m6 l2>
-          <div class="slideinleft"><h1>Ola Que Paso</h1></div>
+</div>
+</div>
+<div class="container proto">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Column 1</h3>
+        <div id="advsHero">
+            <img src="images/advs/proto persona.png">
+        </div>
       </div>
+      <div class="col-md-3 proto">
+        <h3>Column 2</h3>
+        <p>Based on current US veteran demographics provided by the Veterans Administration (https://www.va.gov/vetdata/veteran_population.asp) I created a Proto Persona to help focus on a typical user and keep his/her needs and limitations in the forefront of the design process.  </p>
+      </div>
+    </div>
   </div>
-<div>
-  <p>Click anywhere to toggle the box.</p>
-  <div id="toggle"></div>
-  </div>
-   
-  </body>
-  </html>
-</body>
+
+
+
 
 <footer>
     <div class="footer">
@@ -95,3 +104,5 @@
         <div class="copyright">
           <p>copyright &#169 2021</p>
   </footer>
+  </body>
+  </html>
